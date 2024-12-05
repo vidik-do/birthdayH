@@ -4,6 +4,7 @@ function showMessage() {
     // Make it visible
     surprise.style.display = 'block';
 } // Countdown Timer Logic
+// Countdown Timer Logic
 function startCountdown() {
   const eventDate = new Date("Dec 9, 2024 00:00:00").getTime(); // Set the target date
   const timerElement = document.getElementById("timer");
@@ -28,8 +29,7 @@ function startCountdown() {
   }, 1000);
 }
 
-// Call the function when the page loads
-startCountdown();
+// Function to Show the Surprise and Cake Animation
 function showMessage() {
   // Reveal the hidden surprise text
   const surprise = document.getElementById("surprise");
@@ -40,3 +40,5 @@ function showMessage() {
   cakeContainer.style.display = "block"; // Make the cake visible
 }
 
+// Call the countdown function when the page loads
+startCountdown();
