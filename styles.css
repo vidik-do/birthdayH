@@ -41,4 +41,8 @@ button:hover {
     font-size: 1.5rem;
     color: #ff4500;
     font-weight: bold;
+/* Adjusting Animation Timing */
+.animate__animated {
+  animation-duration: 2s; /* Change '2s' to the desired duration */
 }
+
