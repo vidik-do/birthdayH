@@ -30,4 +30,13 @@ function startCountdown() {
 
 // Call the function when the page loads
 startCountdown();
+function showMessage() {
+  // Reveal the hidden surprise text
+  const surprise = document.getElementById("surprise");
+  surprise.style.display = "block";
+
+  // Reveal the cake animation
+  const cakeContainer = document.getElementById("cake-container");
+  cakeContainer.style.display = "block"; // Make the cake visible
+}
 
